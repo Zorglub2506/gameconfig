@@ -183,7 +183,7 @@
                         </Item>
                         <Item>
                             <PoolName>DwdStore</PoolName>
-                            <PoolSize value="18000"/>
+                            <PoolSize value="18600"/>
                         </Item>
                         <Item>
                             <PoolName>EntityBatch</PoolName>
@@ -203,7 +203,7 @@
                         </Item>
                         <Item>
                             <PoolName>FragmentStore</PoolName>
-                            <PoolSize value="28800"/>
+                            <PoolSize value="32000"/>
                         </Item>
                         <Item>
                             <PoolName>GamePlayerBroadcastDataHandler_Remote</PoolName>
@@ -363,7 +363,7 @@
                         </Item>
                         <Item>
                             <PoolName>ScriptStore</PoolName>
-                            <PoolSize value="1010"/>
+                            <PoolSize value="1030"/>
                         </Item>
                         <Item>
                             <PoolName>StaticBounds</PoolName>
@@ -399,7 +399,7 @@
                         </Item>
                         <Item>
                             <PoolName>HandlingData</PoolName>
-                            <PoolSize value="1450"/>
+                            <PoolSize value="1550"/>
                         </Item>
                         <Item>
                             <!-- Size of the CWaypointRecording streaming module. -->
@@ -513,6 +513,10 @@
                         <Item>
                             <PoolName>SyncedScenes</PoolName>
                             <PoolSize value="50"/>
+                        </Item>
+						<Item>
+                            <PoolName>SyncedScenesMP</PoolName>
+                            <PoolSize value="64"/>
                         </Item>
                         <Item>
                             <PoolName>AnimScenes</PoolName>
@@ -788,8 +792,8 @@
                     <MaxTimeModelInfos value="1800"/>
                     <MaxVehicleModelInfos value="320"/>
                     <MaxWeaponModelInfos value="115"/>
-                    <MaxExtraPedModelInfos value="300"/>
-                    <MaxExtraVehicleModelInfos value="465"/>
+                    <MaxExtraPedModelInfos value="315"/>
+                    <MaxExtraVehicleModelInfos value="485"/>
                     <MaxExtraWeaponModelInfos value="500"/>
                 </ConfigModelInfo>
 
@@ -931,7 +935,7 @@
                         <Item>
                             <SizeOfData value="400"/>
                             <MaxParticipants value="32"/>
-                            <NumInstances value="5"/>
+                            <NumInstances value="8"/>
                         </Item>
                         <Item>
                             <SizeOfData value="150"/>
@@ -1015,7 +1019,7 @@
                         </Item>
                         <Item>
                             <StackName>MULTIPLAYER_MISSION</StackName>
-                            <SizeOfStack value="4500"/>
+                            <SizeOfStack value="5050"/>
                             <NumberOfStacksOfThisSize value="19"/>
                         </Item>
                         <Item>
@@ -1080,17 +1084,17 @@
                         </Item>
                         <Item>
                             <StackName>FMMC_LAUNCHER</StackName>
-                            <SizeOfStack value="21000"/>
+                            <SizeOfStack value="23000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
                             <StackName>MULTIPLAYER_FREEMODE</StackName>
-                            <SizeOfStack value="66000"/>
+                            <SizeOfStack value="68500"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
                             <StackName>MISSION</StackName>
-                            <SizeOfStack value="44500"/>
+                            <SizeOfStack value="51000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                         <Item>
@@ -1749,7 +1753,7 @@
                         </Item>
                         <Item>
                             <StackName>DEBUG_MENU</StackName>
-                            <SizeOfStack value="32000"/>
+                            <SizeOfStack value="35000"/>
                             <NumberOfStacksOfThisSize value="1"/>
                         </Item>
                     </StackSizeData>
